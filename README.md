@@ -48,7 +48,7 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 - EVM privatekey.
-- 
+- Format with both '0x' prefix and without it.
 
 ```txt
 privatekey
