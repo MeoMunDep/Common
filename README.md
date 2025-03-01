@@ -8,7 +8,7 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 
 1. [Configuration Files](#configuration-files)
    - [`configs.json`](#1-configsjson)
-   - [`privateKeys.txt`](#2-privateKeystxt)
+   - [`datas.txt`](#2-datastxt)
    - [`proxies.txt`](#4-proxiestxt)
 2. [Running the Bot](#running-the-bot)
 3. [Contact and Support](#contact-and-support)
@@ -51,7 +51,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
   - `referralCode`: Add your referral code (optional). Do not change it if you want to support me ^^
 
-### 2. `privateKeys.txt` - 🗂️ User Data
+### 2. `datas.txt` - 🗂️ User Data
 
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 - EVM privatekey.
