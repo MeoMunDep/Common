@@ -25,12 +25,15 @@ This file controls the bot’s behavior. Below is an example configuration:
 {
   "timeZone": "en-US",
   "skipInvalidProxy": true,
-  "delayEachAccount": [1, 1],
+  "delayEachAccount": [1, 5],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 200,
+  "howManyAccountsRunInOneTime": 1,
+  "updateUsername": true,
+  "doNewbieQuest": true,
   "referralCode": [
     "0xe81E898F01Bc49B4A567628A6876A68ab1Bc4646",
-    "0x16B0108a498cDC31aceA417E2A2fb8bf2c5Dde91"
+    "0x16B0108a498cDC31aceA417E2A2fb8bf2c5Dde91",
+    "0x28BaC5E8829bdfA5c58c81c67651F6AcF0271568"
   ]
 }
 ```
@@ -38,6 +41,8 @@ This file controls the bot’s behavior. Below is an example configuration:
 - **Fields Explained:**
   - `timeZone`: Time zone setting (e.g., "en-US").
   - `skipInvalidProxy`: Skip invalid proxies if `true`.
+  - `updateUsername`: Update username if `true`.
+  - `doNewbieQuest`: Do newbie quests if `true`.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
